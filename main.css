@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+    background: white;
+    text-align: center;
+}
+.wrap {
+    background: skyblue;
+    width: 500px;
+    padding: 20px;
+}
+.friends-item p {
+    padding: 20px;
+    text-align: justify;
+}
+.friends-item .flex-box {
+    display: flex;
+}
+.friends-item .flex-box img {
+    order: 2;
+    padding: 20px;
+
+}
+.friends-item .flex-box p {
+    order: 1 ;
+    text-align: center;
+}
